@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veebirakendus</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<h2>Registreerimisvorm</h2>
+
+<form id="registreerimisVorm">
+    <label for="nimi">Nimi:</label>
+    <input type="text" id="nimi" name="nimi">
+
+    <label for="email">E-post:</label>
+    <input type="email" id="email" name="email">
+
+    <label for="sonum">Sõnum:</label>
+    <textarea id="sonum" name="sonum"></textarea>
+
+    <button type="submit">Saada</button>
+</form>
+
+<p id="teade" style="display: none;">Vorm edukalt saadetud!</p>
+
+<img id="pilt" src="https://via.placeholder.com/150" style="display: none;" alt="Placeholder Image">
+
+<script src="script.js"></script>
+</body>
+</html>
